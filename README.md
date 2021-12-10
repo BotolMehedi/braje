@@ -47,8 +47,8 @@ $ python2 braje.py
 ```
 
 
-#ThanksToRajeLiker
-#ThanksToKuhaku
+# ThanksToRajeLiker
+# ThanksToKuhaku
 
 
 ## ***Follow Me***
