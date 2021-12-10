@@ -10,7 +10,7 @@
 <h1 align="center">BRAJE 1.0</h1>
 <p align="center">      AUTO LIKER AND AUTO FOLLOWER TOOL FOR TERMUX USERS</p>
 
-## ***About Bind***:
+## ***About Braje***:
 
 Braje is a python based auto liker and auto follower script. You can get unlimited auto comment, auto reaction and auto followers by using this tool. This tool works on any Android devices without root.
 
