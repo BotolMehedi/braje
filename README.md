@@ -46,6 +46,10 @@ $ bash install.sh
 $ python2 braje.py
 ```
 
+# Noted
+## Use Fake Account
+## Use Kiwi Browser (Search On Play Store)
+## Use EditThisCookie Extension (Search on Chrome Extension Store)
 
 # ThanksToRajeLiker
 # ThanksToKuhaku
