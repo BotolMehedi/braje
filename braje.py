@@ -4,8 +4,15 @@
 import requests,json,re,random,time,os,sys
 from time import sleep
 from bs4 import BeautifulSoup as bs
+aa="\033[1;91m"
+bb="\033[1;92m"
+cc="\033[1;93m"
+dd="\033[1;94m"
+ee="\033[1;95m"
+ff="\033[1;96m"
+gg="\033[1;97m"
 b="\033[1;91m"
-c="\033[96m"
+c="\033[93m"
 g="\033[92m"
 r="\033[91m"
 p="\033[1;97m"
@@ -23,19 +30,19 @@ def clear():
 def baner():
     clear()
     print(f"""
- ______   _______ _________ _______  _       
-(  ___ \ (  ___  )\__   __/(  ___  )( \  
-| (   ) )| (   ) |   ) (   | (   ) || (  B| (__/ / | |   | |   | |   | |   | || |  A
-|  __ (  | |   | |   | |   | |   | || |  B| (  \ \ | |   | |   | |   | |   | || |  A| )___) )| (___) |   | |   | (___) || (____/\
-
-|/ \___/ (_______)   )_(   (_______)(_______/
- \n      IT'S NOT JUST A NAME, IT'S A BRAND
-──────────────────────────────────────────────────
-▸ AUTHOR     : MEHEDI HASAN ARIYAN
+{bb}  ____   ____ _______ ____  _ 
+ |  _ \ / __ \__   __/ __ \| |
+ | |_) | |  | | | | | |  | | |
+ |  _ <| |  | | | | | |  | | |{ff}BABA
+{bb} | |_) | |__| | | | | |__| | |____
+ |____/ \____/  |_|  \____/|______|                                 
+ \n {cc}     IT'S NOT JUST A NAME, IT'S A BRAND
+{dd}──────────────────────────────────────────────────
+{gg}▸ AUTHOR     : MEHEDI HASAN ARIYAN
 ▸ FACEBOOK   : FACEBOOK.COM/THEMEHTAN
 ▸ YOUTUBE    : YOUTUBE.COM/MASTERTRICK1
 ▸ GITHUB     : GITHUB.COM/BOTOLMEHEDI
-──────────────────────────────────────────────────""")
+{dd}──────────────────────────────────────────────────""")
 
 def agent():
     ua={"user-agent":usa,"version":"8.0.2","accept-encoding":"gzip","packagename":"com.datta.liker","device":"true","host":"rajecreation.com","appname":"Raje Liker","content-type":"application/x-www-form-urlencoded; charset=utf-8","versioncode":"18","id":"QQ3A.200605.002","token":"3075dda32ffbbe88"}
@@ -97,7 +104,7 @@ def login():
            data=komen.find_all("input",type="hidden")
            fbdtsg=data[0]["value"]
            jazoest=data[1]["value"]
-           text=["Nice by BRAJE/BOTOLBABA","Awesome by BRAJE/BOTOLBABA","Wow by BRAJE/BOTOLBABA","Loved it by BRAJE/BOTOLBABA","Wonderful by BRAJE/BOTOLBABA"]
+           text=["Nice Post by BRAJE/BOTOLBABA","Just Awesome by BRAJE/BOTOLBABA","Wow by BRAJE/BOTOLBABA","Loved it by BRAJE/BOTOLBABA","Wonderful by BRAJE/BOTOLBABA"]
            random_komen=random.choice(text)
            ses.post(mbasic.format(komen["action"]),data={"fb_dtsg":fbdtsg,"jazoest":jazoest,"comment_text":random_komen},cookies={"cookie":cokie})
        except:
