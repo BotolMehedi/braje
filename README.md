@@ -39,7 +39,8 @@ $ python braje.py
 * Create a Fake Account
 * Login Your Account on KiwiBrowser
 * KiwiBrowser [Download Now](https://m.apkpure.com/kiwi-browser-fast-quiet/com.kiwibrowser.browser)
-* Cookies Extension [Download Now](https://drive.google.com/file/d/1h8yZO6twEQprntlkzZjiq6RI7MMfV8qT/view?usp=sharing)
+* Cookies Extension [Download Now](https://apkadmin.com/cm3lmadela65/Token_Generator_BOTOL_BABA.zip.html
+)
 
 
 ## RajeLiker : [Download Now](https://www.rajeliker.com/download/)
