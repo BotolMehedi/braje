@@ -18,7 +18,7 @@ Braje is a python based auto liker and auto follower script. You can get unlimit
 ```
 $ pkg update && pkg upgrade
 $ pkg install python
-$ pkg install python2
+$ pkg install python3
 $ pkg install git
 $ pkg install pip
 $ pkg install pip2
@@ -26,34 +26,21 @@ $ pip2 install requests
 $ pip2 install mechanize
 $ git clone https://github.com/botolmehedi/braje
 ```
-## Install on Terminal :
+
+## Tools Setup & Run :
 ```
-$ apt update && apt upgrade
-$ apt install python
-$ apt install python2
-$ apt install git
-$ apt install pip
-$ apt install pip2
-$ pip2 install requests
-$ pip2 install mechanize
-$ git clone https://github.com/botolmehedi/braje
+$ clear && ls && cd braje && ls
+$ bash install.sh && clear
+$ python braje.py
 ```
 
-## Tools Run :
-```
-$ ls && cd braje && ls
-$ bash install.sh
-$ python2 braje.py
-```
+## Cookie Find :
 
-# Noted
-## Use Fake Account
-## Use Kiwi Browser (Search On Play Store)
-## Use EditThisCookie Extension (Search on Chrome Extension Store)
+* Create a Fake Account
+* Login Your Account on Google Chrome
+* Install HttpCanry App [Download Now](https://m.apkpure.com/httpcanary-%E2%80%94-http-sniffer-capture-analysis/com.guoshi.httpcanary/)
 
-# ThanksToRajeLiker
-# ThanksToKuhaku
-
+## Video Tutorial :
 
 ## ***Follow Me***
 
@@ -69,3 +56,6 @@ $ python2 braje.py
 ### Warning
 
 ***Don't try to edit or modify this tool. This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
+
+# ThanksToRajeLiker
+# ThanksToKuhaku
