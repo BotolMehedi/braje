@@ -48,7 +48,7 @@ $ python braje.py
 If Termux Application Not Working Then Install PyDroid3
 * PyDroid3 : [Download Now](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)
 
-## Video Tutorial :
+## Video Tutorial : [https://drive.google.com/file/d/1OMP7LLZKQ9rLVE3PomcD-IHQ3fdB62qO/view?usp=sharing](https://drive.google.com/file/d/1OMP7LLZKQ9rLVE3PomcD-IHQ3fdB62qO/view?usp=sharing)
 
 ## ***Follow Me***
 
