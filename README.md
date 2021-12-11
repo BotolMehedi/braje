@@ -8,13 +8,13 @@
 <p align="center"><a href="https://github.com/botolmehedi/followers"><img title="Followers" src="https://img.shields.io/github/followers/botolmehedi?color=blue&style=flat-square"></a> <a href="https://www.youtube.com/mastertrick1"><img title="Youtube" src="https://img.shields.io/badge/YOUTUBE-%40mastertrick1-red?style=flat-square&logo=youtube"></a> <a href="https://www.facebook.com/groups/231747098048450"><img title="Messenger" src="https://img.shields.io/badge/Chat-Messenger-blue?style=flat-square&logo=messenger"></a></p>
 
 <h1 align="center">BRAJE 1.0</h1>
-<p align="center">      AUTO LIKER, AUTO COMMENT AND AUTO FOLLOWER APP CREDIT HACKER TOOL FOR TERMUX USERS</p>
+<p align="center">      AUTO LIKER, AUTO COMMENT AND AUTO FOLLOWER APP CREDIT HACKER TOOL</p>
 
 ## ***About Braje***:
 
 Braje is a python based credit hacker tool. Hack unlimited RAJE LIKER app Credit. Raje Liker is a Best Unlimited auto comment, auto reaction and auto followers application. This tool works on any Android devices without root.
 
-## Install on Termux :
+## Installation :
 ```
 $ pkg update && pkg upgrade
 $ pkg install python
@@ -41,6 +41,10 @@ $ python braje.py
 * Install HttpCanry App [Download Now](https://m.apkpure.com/httpcanary-%E2%80%94-http-sniffer-capture-analysis/com.guoshi.httpcanary/)
 
 ## RajeLiker : [Download Now](https://www.rajeliker.com/download/)
+
+## Note :
+If Termux Application Not Working Then Install PyDroid3
+* PyDroid3 : [Download Now](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)
 
 ## Video Tutorial :
 
