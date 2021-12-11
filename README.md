@@ -37,8 +37,10 @@ $ python braje.py
 ## Cookie Find :
 
 * Create a Fake Account
-* Login Your Account on Google Chrome
-* Install HttpCanry App [Download Now](https://m.apkpure.com/httpcanary-%E2%80%94-http-sniffer-capture-analysis/com.guoshi.httpcanary/)
+* Login Your Account on KiwiBrowser
+* KiwiBrowser [Download Now](https://m.apkpure.com/kiwi-browser-fast-quiet/com.kiwibrowser.browser)
+* Cookies Extension [Download Now](https://drive.google.com/file/d/1h8yZO6twEQprntlkzZjiq6RI7MMfV8qT/view?usp=sharing)
+
 
 ## RajeLiker : [Download Now](https://www.rajeliker.com/download/)
 
