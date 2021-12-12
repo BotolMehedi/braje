@@ -52,7 +52,7 @@ def useragent():
     try:
         usr=open("useragent").read()
     except FileNotFoundError:
-        usr=input(f"{er}\n\nUserAgent \n{pr} {ab}>>> {c}")
+        usr=input(f"\n\n{er}UserAgent \n{pr} {ab}>>> {c}")
     with open("useragent","w") as us:
         us.write(usr)
     return usr
@@ -64,7 +64,7 @@ def login():
     try:
         cokie=open("cookies").read()
     except FileNotFoundError:
-        cokie=input(f"{er}\n\nCookies \n{pr} {ab}>>> {c}")
+        cokie=input(f"\n\n{er}Cookies \n{pr} {ab}>>> {c}")
     data={"cookie":cokie,"access_token":"","loginType":"FB","refby":"null"}
     req=requests.post("https://rajecreation.com/rajeliker/v8/login.php",data=data,headers=ua).text
     if "Login success!" in req:
