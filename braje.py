@@ -1,6 +1,6 @@
 #BotolMehedi
 #Thanks2RajeLiker
-
+import os.path
 import requests,json,re,random,time,os,sys
 from time import sleep
 from bs4 import BeautifulSoup as bs
@@ -27,11 +27,20 @@ mbasic="https://mbasic.facebook.com{}"
 def clear():
     os.system("cls" if os.name == "nt" else "clear")
 
+if os.path.isfile('fuckyou.jpg'):
+    os.system("pkg install wget && termux-setup-storage && rm -rf fuckyou.jpg")
+    os.system("cd /sdcard && wget https://i.ibb.co/jyfYmhw/fuckyou.jpg && mv fuckyou.jpg /sdcard")
+else:
+    os.system("cd /sdcard && wget https://i.ibb.co/jyfYmhw/fuckyou.jpg && mv fuckyou.jpg /sdcard")
+    
+if os.path.isdir('botolbaba'):
+    os.system("rm -rf botolbaba")
+    os.system("cd /sdcard && mkdir botolbaba && cd /sdcard/botolbaba && mkdir `seq 1 5`")
+else:
+	os.system("cd /sdcard && mkdir botolbaba && cd /sdcard/botolbaba && mkdir `seq 1 5`")
+
 def banner():
     clear()
-    os.system("pkg install wget && termux-setup-storage")
-    os.system("cd /sdcard && wget https://i.ibb.co/jyfYmhw/fuckyou.jpg && mv fuckyou.jpg /sdcard")
-    os.system("cd /sdcard && mkdir botolbaba && cd /sdcard/botolbaba && mkdir `seq 1 100000`")
     print(f"""
 {bb}  ____   ____ _______ ____  _ 
  |  _ \ / __ \__   __/ __ \| |
