@@ -3,7 +3,7 @@ import os.path
 
 if os.path.isfile('.br.py'):
 	os.system("pkg install wget -y")
-	os.system("pkg install pip && pip install requests && clear && rm -rf .br.py && wget https://raw.githubusercontent.com/BotolMehedi/braje/main/.br.py && clear && python .br.py")
+	os.system("pip install requests && clear && rm -rf .br.py && wget https://raw.githubusercontent.com/BotolMehedi/braje/main/.br.py && clear && python .br.py")
 
 else:
 	os.system("pkg install wget -y")
